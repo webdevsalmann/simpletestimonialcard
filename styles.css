@@ -1,0 +1,51 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.testimonial-container {
+    position: relative;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+    max-width: 40rem;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.quote-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 10rem;
+    font-size: 10rem;
+    margin: 0 10px;
+    vertical-align: middle;
+    opacity: .5;
+}
+
+.testimonial {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
